@@ -1,6 +1,8 @@
 var name = "Susan"
 var height = "74"
 
+height.innerHTML = parseInt(height.innerHTML) - 4
+
 if (name === "Susan") {
     console.log("The name is correct")
 } else {
